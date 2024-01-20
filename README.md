@@ -35,6 +35,7 @@ Juntos, vamos simplificar os conceitos e fortalecer nossa compreensão coletiva 
 
 - [GIMP](https://gimp.org)
 - [Unsplash](https://unsplash.com)
+- [Copilot](https://copilot.microsoft.com)
 - [ChatGPT](https://chat.openai.com)
 
 </details>
