@@ -1,6 +1,6 @@
 ## :arrow_right: Metodologias Ágeis
 
-<img align="right" height="600px" src="https://github.com/2uj1m28ohz/database/blob/main/AgileMethodologies.png"/>
+<img align="right" height="600px" src="https://github.com/2uj1m28ohz/Database/blob/main/Development/AgileMethodologies.png"/>
 
 Metodologias ágeis são abordagens de desenvolvimento de software que enfatizam a flexibilidade, colaboração, feedback contínuo, na entrega iterativa e incremental. Elas foram criadas como uma alternativa aos métodos tradicionais de desenvolvimento de software, como o modelo cascata (waterfall), que geralmente eram mais rígidos e menos adaptáveis a mudanças.
 
