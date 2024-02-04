@@ -99,3 +99,5 @@ Em muitos casos, especialmente na web, o UTF-8 sem BOM é preferido, pois a pres
 </details>
 
 </details>
+
+> Imagem: Lovovna/Unsplash
