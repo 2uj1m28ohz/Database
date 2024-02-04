@@ -163,3 +163,5 @@ O Lean Software Development é uma abordagem baseada nos princípios do Lean Man
 O Lean Software Development é valorizado por sua ênfase na eficiência, entrega de valor ao cliente e melhoria contínua. Ao adotar os princípios do Lean, as equipes de desenvolvimento podem otimizar seus processos para alcançar resultados mais eficazes e consistentes.
 
 </details>
+
+> Imagem: Axel Bonniot/Unsplash
