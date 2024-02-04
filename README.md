@@ -41,13 +41,6 @@ Juntos, vamos simplificar os conceitos e fortalecer nossa compreensão coletiva 
 </details>
 
 <details>
-<summary>Aviso de Licença</summary>
-
-As imagens contidas neste repositório tem suas versões originais vinculadas às licenças [Unsplash](https://unsplash.com/license) e/ou [Pexels](https://pexels.com/license). Verifique os termos das licenças no site das plataformas.
-
-</details>
-
-<details>
 <summary>Aviso Legal</summary>
 
 Todas as outras marcas mencionadas são de propriedade de seus respectivos proprietários.
