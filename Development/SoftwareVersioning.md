@@ -90,3 +90,5 @@ O CalVer também pode incluir letras, rótulos ou outras informações para indi
 O Calendar Versioning, ao contrário do Semantic Versioning, enfoca mais a temporalidade do que as mudanças específicas realizadas em uma versão. Isso pode ser útil em contextos nos quais a data de lançamento é fundamental para os usuários ou quando se deseja destacar claramente a ordem cronológica das versões.
 
 </details>
+
+> Imagem: Mohammad Amin/Unsplash
