@@ -95,3 +95,5 @@ A Command Line Interface (CLI) é um tipo de interface de usuário na qual os co
 Apesar de ter uma curva de aprendizado inicial mais acentuada, as CLIs oferecem vantagens significativas para usuários familiarizados e para determinados contextos. Sua eficiência na execução de tarefas específicas, precisão no controle do sistema e capacidade de automação por meio de scripts são aspectos altamente valorizados por desenvolvedores, administradores de sistemas e usuários avançados. A CLI também pode ser uma ferramenta valiosa para a compreensão mais profunda do funcionamento interno de um sistema, incentivando os usuários a aprenderem sobre comandos e estrutura do sistema operacional. A combinação entre interfaces gráficas e CLIs, dependendo das necessidades e habilidades dos usuários, é comum em muitos ambientes de trabalho, oferecendo um amplo espectro de escolha para interação e controle do sistema.
 
 </details>
+
+> Imagem: Martin Martz/Unsplash
