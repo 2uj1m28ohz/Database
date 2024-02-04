@@ -83,3 +83,5 @@ Embora a arquitetura modular ofereça várias vantagens, também requer um plane
 Ambas as abordagens têm vantagens e desvantagens, e a escolha entre elas muitas vezes depende das necessidades específicas do projeto, dos requisitos de escalabilidade, manutenção e dos recursos disponíveis.
 
 Dentro da arquitetura de software, entender e decidir qual dessas abordagens (ou outras) melhor se adequa ao projeto é parte fundamental do processo de design e desenvolvimento.
+
+> Imagem: Milad Fakurian/Unsplash
