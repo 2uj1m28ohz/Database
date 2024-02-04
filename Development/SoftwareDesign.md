@@ -75,3 +75,5 @@ Diferença entre eles:
 - Abordagem: Clean Code inclui práticas gerais e diretrizes para escrever código mais limpo, enquanto SOLID são princípios específicos que orientam o design de software, especialmente em relação à orientação a objetos.
 
 Clean Code e SOLID estão inter-relacionados no sentido de que ambos visam melhorar a qualidade do software, mas focam em aspectos diferentes: Clean Code nas práticas de codificação e legibilidade, e SOLID nos princípios de design que influenciam a estruturação e extensibilidade do sistema. Ambos são fundamentais para a criação de software de alta qualidade e são frequentemente aplicados em conjunto para obter sistemas robustos e fáceis de manter.
+
+> Imagem: Mohammad Rahmani/Unsplash
