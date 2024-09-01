@@ -1,25 +1,31 @@
 ## :brain: Database
 
-![](https://github.com/2uj1m28ohz/Database/blob/main/Intro.png)
-> Imagem: Nat/Unsplash.
+![](https://github.com/2uj1m28ohz/Database/blob/main/Image.png)
+> Imagem: Nat Watson/Unsplash
 
-Se você já se viu imerso no mundo do desenvolvimento de software, sabe que a jornada pode ser tão desafiadora quanto gratificante. **Database** é o resultado de uma jornada pessoal iniciada em 2021 na qual mergulhei em diversos aspectos do desenvolvimento de software, compilando informações relevantes que me ajudaram a compreender e criar projetos de qualidade, partindo do zero.
+A lembrança de ver um computador pela primeira vez é uma das memórias mais empolgantes que tenho. Não sei exatamente quantos anos tinha, mas lembro da sensação. Estava visitando um primo e vi um aparelho novo, desligado. Fiquei muito curioso sobre o que era e pedi se podia ligar. Ele fazia um barulho muito sutil, algumas informações apareceram na tela e em seguida o logo do Windows 95.
 
-Como alguém que ingressou neste campo sem conhecimento prévio, absorver esse conjunto de informações foi essencial. Desde a compreensão das metodologias ágeis até a complexidade da arquitetura de software, do design de interfaces à codificação de caracteres e às nuances do versionamento de software, cada tópico agregou um novo alicerce ao meu entendimento.
+Eu não tinha ideia do que aquilo fazia, mas diferentemente da televisão, eu podia interagir com a imagem na tela utilizando dois dispositivos que eu nem sabia o nome. De alguma forma aquilo era intuitivo, e mesmo com medo de mexer, fiquei explorando o sistema por algumas horas.
 
-Este repositório nasce da convicção de que o conhecimento adquirido não deve ser mantido isolado, mas compartilhado. Ele é um convite para que você, seja um iniciante ou um desenvolvedor experiente, explore, compreenda e aprimore seu conhecimento no vasto universo do desenvolvimento de software. Este é um espaço dedicado a consolidar informações, insights e recursos que podem ser vitais para o sucesso de projetos de software.
+Se você já se aventurou no mundo da tecnologia da informação, sabe que a jornada pode ser desafiadora, mas também extremamente gratificante. Database nasceu dessa caminhada, fruto de uma trajetória pessoal que, ao longo de décadas, envolveu a exploração de diversos aspectos da TI e a compilação de informações que me permitiram criar projetos robustos partindo do zero.
 
-Espero que este repositório sirva como um guia abrangente, proporcionando não apenas uma visão geral, mas também insights práticos e exemplos tangíveis que facilitem a compreensão desses temas complexos. Que ele seja um ponto de partida sólido ou um complemento valioso para suas próprias explorações no desenvolvimento de software.
+Mesmo com uma base sólida e experiência, foi essencial absorver novas informações e desenvolver habilidades ao longo do caminho. Desde o domínio de conceitos como metodologias ágeis, passando por arquitetura de software, design de interfaces, até as especificidades do versionamento de software e da codificação de caracteres, cada um desses temas desempenhou um papel fundamental na ampliação do meu conhecimento.
 
-Juntos, vamos simplificar os conceitos e fortalecer nossa compreensão coletiva sobre o desenvolvimento de software.
+Este repositório é mais do que uma simples coleção de dados; é um convite para que você, seja leigo ou experiente, explore e aprimore suas habilidades no amplo universo da tecnologia da informação. Aqui, estão consolidadas informações, insights e recursos que podem ser determinantes para o sucesso de um projeto.
+
+A intenção é que Database sirva como um guia abrangente, oferecendo não apenas uma visão geral, mas também insights práticos e exemplos concretos que tornam esses temas complexos mais acessíveis. Que ele seja o ponto de partida ou o complemento que você precisa para avançar em suas próprias explorações.
 
 ## :desktop_computer: Desenvolvimento de Software
-- [Arquitetura de Software](https://github.com/2uj1m28ohz/Database/blob/main/Development/SoftwareArchitecture.md)
-- [Design de Software](https://github.com/2uj1m28ohz/Database/blob/main/Development/SoftwareDesign.md)
-- [Codificação de Caracteres](https://github.com/2uj1m28ohz/Database/blob/main/Development/CharacterEncoding.md)
-- [Metodologias Ágeis](https://github.com/2uj1m28ohz/Database/blob/main/Development/AgileMethodologies.md)
-- [Interface](https://github.com/2uj1m28ohz/Database/blob/main/Development/Interface.md)
-- [Versionamento de Software](https://github.com/2uj1m28ohz/Database/blob/main/Development/SoftwareVersioning.md)
+- [Arquitetura de Software](https://github.com/2uj1m28ohz/Database/blob/main/SoftwareDevelopment/SoftwareArchitecture.md)
+- [Design de Software](https://github.com/2uj1m28ohz/Database/blob/main/SoftwareDevelopment/SoftwareDesign.md)
+- [Codificação de Caracteres](https://github.com/2uj1m28ohz/Database/blob/main/SoftwareDevelopment/CharacterEncoding.md)
+- [Metodologias Ágeis](https://github.com/2uj1m28ohz/Database/blob/main/SoftwareDevelopment/AgileMethodologies.md)
+- [Interface](https://github.com/2uj1m28ohz/Database/blob/main/SoftwareDevelopment/Interface.md)
+- [Versionamento de Software](https://github.com/2uj1m28ohz/Database/blob/main/SoftwareDevelopment/SoftwareVersioning.md)
+
+## :shield: Backup de Dados
+- [Introdução](https://github.com/2uj1m28ohz/Database/blob/main/DataBackup/Introduction.md)
+- [Estratégias](https://github.com/2uj1m28ohz/Database/blob/main/DataBackup/Strategies.md)
 
 ## :arrow_right: Informações
 
@@ -35,7 +41,6 @@ Juntos, vamos simplificar os conceitos e fortalecer nossa compreensão coletiva 
 
 - [GIMP](https://gimp.org)
 - [Unsplash](https://unsplash.com)
-- [Copilot](https://copilot.microsoft.com)
 - [ChatGPT](https://chat.openai.com)
 
 </details>
