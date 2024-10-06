@@ -3,17 +3,11 @@
 ![](https://github.com/2uj1m28ohz/Database/blob/main/Image.png)
 > Imagem: Nat Watson/Unsplash
 
-A lembrança de ver um computador pela primeira vez é uma das memórias mais empolgantes que tenho. Não sei exatamente quantos anos tinha, mas lembro da sensação. Estava visitando um primo e vi um aparelho novo, desligado. Fiquei muito curioso sobre o que era e pedi se podia ligar. Ele fazia um barulho muito sutil, algumas informações apareceram na tela e em seguida o logo do Windows 95.
+Database é o resultado de uma jornada pessoal de aprendizado e experiência no universo da tecnologia, combinada com o conhecimento obtido através do desenvolvimento de Workflow, onde cada desafio se transformou em uma oportunidade de evolução. [Workflow](https://github.com/2uj1m28ohz/Workflow) ajudou a moldar minha visão sobre o que é essencial na criação de soluções tecnológicas robustas e minimalistas.
 
-Eu não tinha ideia do que aquilo fazia, mas diferentemente da televisão, eu podia interagir com a imagem na tela utilizando dois dispositivos que eu nem sabia o nome. De alguma forma aquilo era intuitivo, e mesmo com medo de mexer, fiquei explorando o sistema por algumas horas.
+Este repositório compila as lições, práticas e informações acumuladas ao longo dos anos, formando uma base de dados que aborda diversos aspectos da criação e desenvolvimento de projetos de software.
 
-Se você já se aventurou no mundo da tecnologia da informação, sabe que a jornada pode ser desafiadora, mas também extremamente gratificante. Database nasceu dessa caminhada, fruto de uma trajetória pessoal que, ao longo de décadas, envolveu a exploração de diversos aspectos da TI e a compilação de informações que me permitiram criar projetos robustos partindo do zero.
-
-Mesmo com uma base sólida e experiência, foi essencial absorver novas informações e desenvolver habilidades ao longo do caminho. Desde o domínio de conceitos como metodologias ágeis, passando por arquitetura de software, design de interfaces, até as especificidades do versionamento de software e da codificação de caracteres, cada um desses temas desempenhou um papel fundamental na ampliação do meu conhecimento.
-
-Este repositório é mais do que uma simples coleção de dados; é um convite para que você, seja leigo ou experiente, explore e aprimore suas habilidades no amplo universo da tecnologia da informação. Aqui, estão consolidadas informações, insights e recursos que podem ser determinantes para o sucesso de um projeto.
-
-A intenção é que Database sirva como um guia abrangente, oferecendo não apenas uma visão geral, mas também insights práticos e exemplos concretos que tornam esses temas complexos mais acessíveis. Que ele seja o ponto de partida ou o complemento que você precisa para avançar em suas próprias explorações.
+Mais do que uma simples coleção de dados, Database representa um esforço para compartilhar esse conhecimento com outros profissionais ou entusiastas da tecnologia. Ao reunir uma variedade de temas de forma prática e acessível, este repositório busca facilitar o aprendizado e ajudar quem deseja aprimorar suas habilidades enquanto avança em suas próprias jornadas.
 
 ## :desktop_computer: Desenvolvimento de Software
 - [Arquitetura de Software](https://github.com/2uj1m28ohz/Database/blob/main/SoftwareDevelopment/SoftwareArchitecture.md)
@@ -25,29 +19,13 @@ A intenção é que Database sirva como um guia abrangente, oferecendo não apen
 
 ## :shield: Backup de Dados
 - [Introdução](https://github.com/2uj1m28ohz/Database/blob/main/DataBackup/Introduction.md)
+- [Métodos](https://github.com/2uj1m28ohz/Database/blob/main/DataBackup/Methods.md)
+- [Abordagens](https://github.com/2uj1m28ohz/Database/blob/main/DataBackup/Approaches.md)
 - [Estratégias](https://github.com/2uj1m28ohz/Database/blob/main/DataBackup/Strategies.md)
+- [Armazenamento](https://github.com/2uj1m28ohz/Database/blob/main/DataBackup/Storage.md)
+- [Performance](https://github.com/2uj1m28ohz/Database/blob/main/DataBackup/Performance.md)
 
-## :arrow_right: Informações
+## :point_up: Informações
 
-<details>
-<summary>Documentação</summary>
-
-- [Licença de Conteúdo](https://github.com/2uj1m28ohz/Database/blob/main/LICENSE)
-
-</details>
-
-<details>
-<summary>Tecnologias</summary>
-
-- [GIMP](https://gimp.org)
-- [Unsplash](https://unsplash.com)
-- [ChatGPT](https://chat.openai.com)
-
-</details>
-
-<details>
-<summary>Aviso Legal</summary>
-
-Todas as outras marcas mencionadas são de propriedade de seus respectivos proprietários.
-
-</details>
+> [!WARNING]
+> Não utilize Pull Requests.
