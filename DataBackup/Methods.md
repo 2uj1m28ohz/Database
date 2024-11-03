@@ -1,12 +1,14 @@
-## :shield: Métodos
+# `/` Métodos
 
-<img align="right" height="600px" src="https://github.com/2uj1m28ohz/Database/blob/main/DataBackup/Image.png"/>
+![](/DataBackup/Image.png)
+
+`>` `Data Corruption/David Camargo`
 
 Os métodos de backup referem-se às diferentes técnicas usadas para criar cópias de segurança dos dados, determinando como e quando essas cópias são feitas. A escolha do método mais adequado depende do volume de dados, da frequência de alteração desses dados, do tempo e recursos disponíveis para realizar o backup, e dos objetivos de recuperação em caso de perda de dados. A aplicação correta de um método de backup é essencial para garantir que os dados possam ser recuperados de maneira eficiente e com o mínimo de perda possível.
 
 Cada método de backup tem suas próprias características, vantagens e desvantagens, e é usado para atender a diferentes necessidades de proteção de dados. Abaixo, exploramos os três principais métodos: backup completo, incremental e diferencial.
 
-### Backup Completo
+## `-` Backup completo
 O Backup Completo é o método mais básico e abrangente de backup, no qual todos os dados selecionados para backup são copiados integralmente para um local de armazenamento de backup. Isso inclui todos os arquivos, diretórios e sistemas, sem considerar se eles foram modificados desde o último backup.
 
 - Benefícios
@@ -19,7 +21,7 @@ O Backup Completo é o método mais básico e abrangente de backup, no qual todo
     - Aplicado em situações onde o volume de dados não é muito grande ou onde há espaço e tempo suficientes para realizar backups completos frequentes.
     - Ideal para backups iniciais, onde todos os dados precisam ser copiados pela primeira vez para criar uma base de backup.
 
-### Backup Incremental
+## `-` Backup incremental
 O Backup Incremental é um método onde apenas os dados que foram alterados ou adicionados desde o último backup, seja ele completo ou incremental, são copiados. Isso significa que o backup incremental é cumulativo, adicionando apenas mudanças feitas após o último backup, economizando espaço e tempo.
 
 - Benefícios
@@ -32,7 +34,7 @@ O Backup Incremental é um método onde apenas os dados que foram alterados ou a
     - Ideal para sistemas com limitações de espaço de armazenamento.
     - Adequado para ambientes onde a recuperação de dados completa pode ser feita a partir de uma série de backups incrementais acumulados.
 
-### Backup Diferencial
+## `-` Backup diferencial
 O Backup Diferencial é um método onde todos os dados que foram alterados ou adicionados desde o último backup completo são copiados. Ao contrário do backup incremental, que só copia as mudanças desde o último backup, de qualquer tipo, o backup diferencial é sempre cumulativo em relação ao último backup completo.
 
 - Benefícios
@@ -46,5 +48,3 @@ O Backup Diferencial é um método onde todos os dados que foram alterados ou ad
     - Ideal para sistemas onde mudanças diárias são frequentes, mas não grandes o suficiente para justificar backups incrementais contínuos.
 
 Os métodos de backup completo, incremental e diferencial são fundamentais para a proteção eficaz dos dados. Cada método tem suas próprias vantagens e é escolhido com base nas necessidades específicas de armazenamento, tempo e recursos disponíveis, e nos objetivos de recuperação de dados. Uma estratégia de backup eficaz geralmente combina diferentes métodos para garantir uma proteção abrangente e eficiente dos dados.
-
-> Imagem: Rose Pilkington/Google DeepMind
