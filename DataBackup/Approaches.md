@@ -1,10 +1,12 @@
-## :shield: Abordagens
+# `/` Abordagens
 
-<img align="right" height="600px" src="https://github.com/2uj1m28ohz/Database/blob/main/DataBackup/Image.png"/>
+![](/DataBackup/Image.png)
+
+`>` `Data Corruption/David Camargo`
 
 As abordagens de backup determinam como os dados são copiados e armazenados, influenciando a eficiência do processo, a velocidade de recuperação e o nível de proteção dos dados. Cada abordagem possui características específicas que a tornam mais adequada para diferentes cenários, desde ambientes corporativos de alta complexidade até usuários domésticos. A seguir, cada uma das abordagens principais, suas vantagens e contextos de uso.
 
-### Backup de Imagem
+## `-` Backup de imagem
 O Backup de Imagem cria uma cópia exata de um disco ou partição, incluindo o sistema operacional, aplicativos, configurações e todos os dados presentes. É frequentemente utilizado para criar uma réplica completa do sistema, permitindo a recuperação rápida em caso de falha total.
 
 - Benefícios
@@ -17,7 +19,7 @@ O Backup de Imagem cria uma cópia exata de um disco ou partição, incluindo o 
     - Ideal para empresas que precisam de recuperação rápida de sistemas complexos, como servidores e máquinas virtuais.
     - Adequado para qualquer situação onde a restauração do sistema completo seja a prioridade.
 
-### Backup Espelho
+## `-` Backup Espelho
 O Backup Espelho cria uma cópia exata dos arquivos e pastas selecionados, semelhante a um backup completo, mas sem compressão. Essa abordagem mantém uma duplicata em tempo real, refletindo qualquer alteração feita no conjunto de dados original.
 
 - Benefícios
@@ -30,7 +32,7 @@ O Backup Espelho cria uma cópia exata dos arquivos e pastas selecionados, semel
     - Ideal para empresas que necessitam de backups em tempo real, como aquelas que operam com dados que mudam frequentemente.
     - Adequado para pequenas empresas ou usuários domésticos que querem uma solução simples e contínua para proteger seus dados.
 
-### Backup em Nível de Arquivo
+## `-` Backup em nível de arquivo
 O Backup em Nível de Arquivo realiza a cópia apenas dos arquivos e pastas selecionados. É uma abordagem flexível que permite escolher exatamente quais dados serão incluídos no backup.
 
 - Benefícios
@@ -43,7 +45,7 @@ O Backup em Nível de Arquivo realiza a cópia apenas dos arquivos e pastas sele
     - Ideal para usuários domésticos que desejam proteger apenas determinados arquivos pessoais.
     - Adequado para ambientes onde o volume de dados é grande, mas apenas alguns arquivos são essenciais para backup.
 
-### Backup em Nível de Bloco
+## `-` Backup em nível de bloco
 O Backup em Nível de Bloco copia apenas os blocos de dados que foram alterados em um disco ou partição, em vez de copiar arquivos inteiros. Essa abordagem é altamente eficiente para grandes volumes de dados.
 
 - Benefícios
@@ -56,7 +58,7 @@ O Backup em Nível de Bloco copia apenas os blocos de dados que foram alterados 
     - Ideal para sistemas que precisam de backups rápidos e frequentes, como bancos de dados e servidores.
     - Adequado para empresas que desejam minimizar o tempo e os recursos gastos em operações de backup.
 
-### Backup em Tempo Real
+## `-` Backup em tempo real
 O Backup em Tempo Real ou Proteção Contínua de Dados (CDP) é uma abordagem de backup onde cada alteração nos dados é automaticamente copiada para um local de backup assim que ocorre, proporcionando proteção quase em tempo real.
 
 - Benefícios
@@ -70,5 +72,3 @@ O Backup em Tempo Real ou Proteção Contínua de Dados (CDP) é uma abordagem d
     - Adequado para operações críticas onde qualquer perda de dados, por menor que seja, pode ter um grande impacto.
 
 Cada abordagem de backup possui suas características específicas e é adequada para diferentes contextos. Ao escolher uma abordagem, é importante considerar o tipo de dados, a frequência de alterações, a necessidade de recuperação e o ambiente em que os backups serão realizados. Frequentemente, a combinação de várias abordagens de backup oferece uma proteção mais completa e eficiente, alinhando-se com as melhores práticas de segurança e continuidade dos dados.
-
-> Imagem: Rose Pilkington/Google DeepMind
