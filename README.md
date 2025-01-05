@@ -41,7 +41,7 @@ Mais do que uma simples coleção de dados, Database representa um esforço para
 ## `-` Informações
 `!` Pull Requests via repositório não são aceitos. Verifique a documentação.
 
-`!` Copyright © 2024 David Camargo.
+`!` Copyright © 2024-2025 David Camargo.
 
 `!` Este projeto está licenciado sob a [CC BY-NC-SA 4.0][Licença de Conteúdo].
 
