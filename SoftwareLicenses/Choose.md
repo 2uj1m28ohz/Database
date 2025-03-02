@@ -1,28 +1,28 @@
-# `/` Escolher
+# Escolher
 
 ![](/SoftwareLicenses/Image.png)
 
-`>` `The Law/David Camargo`
+> The Law/David Camargo
 
 Escolher a licença correta para um projeto de software é uma decisão estratégica, que depende dos objetivos do projeto e da comunidade que você deseja atrair. A licença não apenas define como o código pode ser utilizado, mas também impacta a colaboração, a distribuição e o potencial comercial do software.
 
-## `-` Avaliação de critérios
+## Avaliação de critérios
 - **Compatibilidade com outros projetos:** Licenças diferentes têm regras variadas sobre como o código pode ser combinado e redistribuído. Se você pretende integrar bibliotecas de terceiros, é essencial escolher uma licença que seja compatível com elas. Por exemplo, a GPLv3 pode não ser compatível com algumas licenças permissivas, o que pode limitar as opções de integração.
 - **Filosofia do projeto:** A escolha da licença deve refletir a filosofia do projeto. Se o objetivo é garantir que todas as melhorias sejam sempre compartilhadas com a comunidade, uma licença copyleft, como a GPL, pode ser mais adequada. Por outro lado, se a flexibilidade e a adoção em ambientes comerciais são prioridades, uma licença permissiva, como a MIT ou a Apache, pode ser mais apropriada.
 - **Ambição comercial:** Para projetos que visam integração em produtos comerciais, uma licença permissiva é geralmente mais atrativa para parceiros de negócios, pois permite que eles usem o código sem as obrigações que uma licença copyleft impõe. Isso pode facilitar parcerias e colaborações com empresas que preferem manter seu código fechado.
 
-## `-` Ferramentas de escolha
+## Ferramentas de escolha
 - **[Choose A License][CAL]:** Este site fornece uma visão geral de várias licenças populares, ajudando os desenvolvedores a entender as implicações de cada escolha. Ele oferece comparações diretas e orientações para encontrar a licença que melhor se alinha aos objetivos do seu projeto.
 - **[SPDX][SPDX] (Software Package Data Exchange):** O SPDX é um padrão que fornece identificadores unificados para licenças, facilitando a gestão de dependências e a conformidade em projetos complexos. Utilizar o SPDX pode ajudar a evitar problemas legais e garantir que todas as partes interessadas estejam cientes das licenças em uso.
 
-## `-` O impacto da escolha
+## O impacto da escolha
 - A escolha da licença pode afetar a disposição de novos colaboradores em contribuir para o projeto. Licenças mais restritivas podem desestimular contribuições, enquanto licenças permissivas frequentemente atraem desenvolvedores e empresas que desejam experimentar e adaptar o código.
 - Licenças permissivas tendem a atrair mais contribuições de empresas, que muitas vezes estão mais dispostas a colaborar em projetos que não exigem que suas modificações sejam abertas. Em contraste, licenças copyleft são mais apreciadas por desenvolvedores que valorizam a transparência e o compartilhamento de melhorias.
 
-## `-` Consequências legais
+## Consequências legais
 Escolher uma licença inadequada pode levar a complicações legais sérias. Por exemplo, se um projeto é licenciado sob uma licença copyleft e um desenvolvedor usa o código em um projeto fechado, isso pode resultar em ações legais por violação de direitos autorais. Além disso, a falta de clareza na licença pode causar confusões sobre os direitos e responsabilidades, levando a litígios e danos à reputação do projeto.
 
-## `-` Histórias de sucesso
+## Histórias de sucesso
 A escolha da licença pode ser observada em diversos projetos notáveis:
 - **Linux Kernel (GPLv2):** A escolha da GPLv2 permitiu que o kernel se tornasse uma das maiores e mais colaborativas iniciativas open source, promovendo um ambiente de desenvolvimento ativo.
 - **Mozilla Firefox (MPL):** Utiliza a Mozilla Public License, que equilibra permissividade e copyleft, permitindo que as alterações sejam feitas e compartilhadas, ao mesmo tempo que possibilita a integração com software proprietário.
