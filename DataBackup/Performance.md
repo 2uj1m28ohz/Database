@@ -1,17 +1,17 @@
-# `/` Performance
+# Performance
 
 ![](/DataBackup/Image.png)
 
-`>` `Data Corruption/David Camargo`
+> Data Corruption/David Camargo
 
 No contexto de backup local de dados, garantir a performance e a segurança do armazenamento é essencial para proteger informações críticas contra perda ou corrupção. A escolha correta da tabela de partições, do sistema de arquivos e do tamanho da unidade de alocação desempenha um papel fundamental no desempenho e na integridade dos dados armazenados. Cada um desses elementos tem impacto direto na eficiência da utilização do espaço de armazenamento, na rapidez de acesso aos dados e na resiliência contra falhas. Compreender suas características e benefícios é crucial para selecionar as melhores opções de configuração para cada cenário de backup, maximizando tanto a proteção quanto o desempenho.
 
-## `-` Tabela de partição
+## Tabela de partição
 Uma tabela de partição é uma estrutura de dados armazenada no início de um disco rígido ou outro meio de armazenamento que descreve a organização e a estrutura das partições no disco. A partição é uma divisão lógica de um disco físico que permite o gerenciamento separado de diferentes seções do disco. A tabela de partições informa ao sistema operacional como acessar e gerenciar os dados armazenados nessas divisões.
 
 A escolha da tabela de partição adequada é essencial para garantir compatibilidade com diferentes sistemas operacionais e dispositivos, bem como para otimizar o uso do espaço de armazenamento, segurança, e desempenho do sistema.
 
-### `+` MBR
+### MBR
 O Master Boot Record (MBR) é um dos formatos de tabela de partição mais antigos e amplamente utilizados, criado pela IBM em 1983 para sistemas DOS. A tabela MBR é armazenada no primeiro setor de um disco rígido, chamado de "setor de boot", e contém informações sobre a organização das partições no disco, além de um pequeno programa executável que ajuda a iniciar o sistema operacional.
 
 O MBR oferece suporte para discos de até 2 TB e permite a criação de até 4 partições primárias. Se for necessário usar mais de 4 partições, uma delas pode ser configurada como uma partição estendida, que pode conter múltiplas partições lógicas. Isso proporciona flexibilidade em discos menores e é uma solução funcional para muitas configurações de hardware e software.
@@ -20,7 +20,7 @@ O MBR funciona em conjunto com o firmware BIOS (Basic Input/Output System), que 
 
 No entanto, o MBR tem algumas limitações inerentes ao seu design. O suporte para tamanhos de partição é limitado a 2 TB, e o número de partições primárias também é restrito a quatro. Além disso, todas as informações críticas de inicialização e partições são armazenadas em um único local, o que pode apresentar um risco em caso de falhas ou corrupção. Apesar dessas limitações, o MBR continua sendo uma escolha confiável e eficaz para muitos sistemas que não exigem grandes capacidades de armazenamento ou não utilizam recursos de firmware mais recentes.
 
-### `+` GPT
+### GPT
 A GUID Partition Table (GPT) é um padrão mais moderno de tabela de partição, introduzido como parte da especificação do UEFI (Unified Extensible Firmware Interface) em 2000. O GPT foi criado para superar as limitações do MBR e oferece várias melhorias significativas. Diferente do MBR, o GPT utiliza um identificador único global (GUID) para cada partição, o que permite um número muito maior de partições primárias — até 128 no Windows, embora, teoricamente, o limite seja muito maior.
 
 O GPT também é projetado para suportar discos muito maiores, com um tamanho máximo de partição de até 9.4 ZB (zettabytes), o que está muito além das necessidades de armazenamento atuais. Além disso, o GPT armazena várias cópias da tabela de partições em diferentes locais do disco, proporcionando maior resiliência contra corrupção de dados. Ele inclui verificações de integridade utilizando CRC (Cyclic Redundancy Check), permitindo a detecção e recuperação automática de erros na tabela de partições.
@@ -29,12 +29,12 @@ O GPT é projetado para trabalhar com o firmware UEFI, que substitui o BIOS trad
 
 Para o contexto de backup de dados, a GPT é claramente a opção mais vantajosa. Ela permite o uso de discos maiores, suporta um número maior de partições, e oferece maior proteção contra falhas de dados e corrupção, fatores críticos em ambientes de backup. Além disso, a compatibilidade com o UEFI garante maior flexibilidade e longevidade em sistemas modernos. A menos que você precise garantir compatibilidade com sistemas muito antigos que não suportam UEFI, a escolha da GPT é recomendada para garantir a máxima eficiência e segurança dos dados de backup.
 
-## `-` Sistema de arquivos
+## Sistema de arquivos
 Um sistema de arquivos é uma estrutura lógica utilizada por sistemas operacionais para controlar a forma como os dados são armazenados e recuperados em um dispositivo de armazenamento, como discos rígidos, SSDs, cartões SD, entre outros. Sua função é organizar dados em arquivos e diretórios, permitindo que o sistema operacional e os aplicativos leiam, gravem e modifiquem informações de maneira eficiente e segura.
 
 Os sistemas de arquivos fornecem métodos para nomear arquivos, definir permissões de acesso e organizar dados de maneira que possam ser facilmente gerenciados e protegidos contra corrupção ou perda. Eles também são responsáveis por gerenciar o espaço de armazenamento, mantendo o controle sobre onde cada arquivo está fisicamente localizado no dispositivo, facilitando a alocação e a recuperação rápida dos dados.
 
-### `+` Windows
+### Windows
 - FAT32 (File Allocation Table 32)
     - Ano de criação: 1996
     - Tamanho máximo da partição: 2 TB
@@ -63,7 +63,7 @@ Os sistemas de arquivos fornecem métodos para nomear arquivos, definir permiss�
     - Tecnologias suportadas: Detecção e correção automática de erros, integridade de dados, suporte a volumes grandes, criação de snapshots, otimização para cargas de trabalho de dados grandes.
     - Problema resolvido: Necessidade de maior resiliência e integridade de dados em ambientes de servidor e de armazenamento de alta capacidade, especialmente em sistemas com grandes volumes e cargas de trabalho intensivas.
 
-### `+` Linux
+### Linux
 - EXT (Extended File System)
     - Ano de criação: 1992
     - Tamanho máximo da partição: 2 GB
@@ -92,7 +92,7 @@ Os sistemas de arquivos fornecem métodos para nomear arquivos, definir permiss�
     - Tecnologias suportadas: Journaling aprimorado, alocação retardada, suporte a volumes maiores, verificação de integridade.
     - Problema resolvido: Necessidade de maior performance, capacidade de armazenamento, e integridade de dados em sistemas Linux modernos.
 
-### `+` macOS
+### macOS
 - HFS (Hierarchical File System)
     - Ano de criação: 1985
     - Tamanho máximo da partição: 2 GB
@@ -116,7 +116,7 @@ Os sistemas de arquivos fornecem métodos para nomear arquivos, definir permiss�
 
 Ao escolher um sistema de arquivos para o drive em que o backup será armazenado, é essencial considerar o sistema operacional em que os dados serão lidos, o volume de dados a ser armazenado e as tecnologias que o sistema de arquivos oferece para garantir a segurança e a integridade dos dados. A compatibilidade entre sistemas operacionais, o suporte a arquivos grandes, a criptografia, e a tolerância a falhas são fatores críticos que influenciam na escolha do sistema de arquivos ideal para cada cenário de backup.
 
-## `-` Unidade de alocação
+## Unidade de alocação
 A unidade de alocação, também chamada de cluster, é o menor bloco de espaço de armazenamento que um sistema de arquivos pode usar para gerenciar arquivos em um disco ou partição. Cada arquivo armazenado em um dispositivo é alocado em um ou mais clusters, e mesmo o menor arquivo ocupará pelo menos um cluster inteiro. A escolha do tamanho da unidade de alocação influencia diretamente o desempenho e a eficiência do armazenamento.
 
 - **Influência no armazenamento:** O tamanho da unidade de alocação define como o espaço de armazenamento em um drive é organizado e usado. Um tamanho de cluster menor permite que o sistema de arquivos armazene dados de forma mais eficiente, pois minimiza o "espaço desperdiçado" dentro dos clusters. No entanto, com clusters menores, o sistema precisa gerenciar um número muito maior de unidades, o que pode aumentar a sobrecarga administrativa em discos grandes.

@@ -1,12 +1,12 @@
-# `/` Armazenamento
+# Armazenamento
 
 ![](/DataBackup/Image.png)
 
-`>` `Data Corruption/David Camargo`
+> Data Corruption/David Camargo
 
 A escolha da estratégia de backup é crucial para garantir a proteção dos dados e a continuidade dos negócios em qualquer organização. As diferentes abordagens de backup oferecem benefícios únicos, adaptando-se a variadas necessidades de segurança, recuperação rápida, acessibilidade, e conformidade regulatória. Conhecer as características de cada tipo de backup — local, na nuvem, híbrido e externo — permite selecionar a melhor solução para cada cenário específico, equilibrando custo, eficiência e segurança.
 
-## `-` Backup local
+## Backup local
 O Backup Local consiste em armazenar cópias de segurança em dispositivos de armazenamento físicos, como discos rígidos externos, servidores locais, NAS (Network Attached Storage), entre outros, que estão fisicamente próximos do sistema ou local da fonte de dados original.
 
 - Benefícios
@@ -19,7 +19,7 @@ O Backup Local consiste em armazenar cópias de segurança em dispositivos de ar
     - Ideal para pequenas empresas ou usuários domésticos que preferem manter seus dados próximos e sob seu controle direto.
     - Adequado para situações onde há restrições de conectividade à internet ou onde o volume de dados é muito grande para ser transferido para a nuvem de forma eficiente.
 
-## `-` Backup em nuvem
+## Backup em nuvem
 O Backup na Nuvem envolve o armazenamento de cópias de segurança em servidores remotos, geralmente fornecidos por um provedor de serviços de nuvem. Os dados são transferidos pela internet para um local de armazenamento fora do local original.
 
 - Benefícios
@@ -32,7 +32,7 @@ O Backup na Nuvem envolve o armazenamento de cópias de segurança em servidores
     - Adequado para empresas que buscam alta disponibilidade e recuperação de dados remota.
     - Ideal para usuários que necessitam de backups automáticos e seguros sem a preocupação com a manutenção de infraestrutura local.
 
-## `-` Backup híbrido
+## Backup híbrido
 O Backup Híbrido combina tanto o backup local quanto o backup na nuvem, oferecendo o melhor dos dois mundos. Essa abordagem permite que dados críticos sejam armazenados localmente para recuperação rápida, enquanto cópias adicionais são mantidas na nuvem para proteção contra desastres.
 
 - Benefícios
@@ -45,7 +45,7 @@ O Backup Híbrido combina tanto o backup local quanto o backup na nuvem, oferece
     - Ideal para organizações com grandes volumes de dados e necessidades de recuperação específicas.
     - Adequado para cenários em que a proteção contra desastres locais e ataques cibernéticos é uma prioridade.
 
-## `-` Backup externo
+## Backup externo
 O Backup Externo envolve a criação de cópias de segurança em locais físicos separados da localização principal dos dados, como instalações de armazenamento fora do local, cofres de backup físicos ou centros de dados alternativos.
 
 - Benefícios
