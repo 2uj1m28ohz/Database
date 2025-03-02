@@ -1,12 +1,12 @@
-# `/` Sequência de Fim de Linha
+# Sequência de Fim de Linha
 
 ![](/SoftwareDevelopment/Image.png)
 
-`>` `Binary Code/David Camargo`
+> Binary Code/David Camargo
 
 A sequência de fim de linha (EOL - End of Line) é uma convenção que utiliza caracteres específicos para indicar o final de uma linha em um arquivo de texto. Esse conceito remonta à era dos teletipos e dispositivos mecânicos de impressão utilizados antes dos computadores modernos.
 
-### `+` Por que a EOL foi criada?
+### Por que a EOL foi criada?
 Nos primeiros sistemas computacionais e dispositivos de comunicação, como teletipos, o texto era impresso ou exibido linha por linha. Para permitir que a máquina soubesse quando iniciar uma nova linha, eram necessários comandos explícitos para:
 
 - Retornar o cabeçote de impressão ao início da linha (carriage return ou `CR`).
@@ -14,13 +14,13 @@ Nos primeiros sistemas computacionais e dispositivos de comunicação, como tele
 
 Essa necessidade deu origem à combinação `CR` (`\r`) e `LF` (`\n`) como uma sequência de controle.
 
-### `+` Quando foi implementada?
+### Quando foi implementada?
 A EOL foi introduzida nos anos 1960, durante a transição de máquinas puramente mecânicas para sistemas eletrônicos baseados em ASCII (American Standard Code for Information Interchange). O ASCII especificava os códigos `CR` (13, em decimal) e `LF` (10, em decimal) como caracteres de controle para formatação de texto.
 
-### `+`  Que problema ela resolveu?
+###  Que problema ela resolveu?
 A criação da EOL padronizou a forma como os sistemas interpretavam quebras de linha, permitindo que arquivos de texto fossem compartilhados e processados consistentemente. Sem a EOL, seria difícil determinar onde uma linha terminava e outra começava, especialmente em sistemas que processavam grandes volumes de dados ou precisavam de comunicação entre dispositivos diferentes.
 
-## `-` Diferenças entre sistemas operacionais
+## Diferenças entre sistemas operacionais
 Com o passar dos anos, os sistemas operacionais adotaram convenções diferentes para a sequência de fim de linha, baseando-se em necessidades específicas ou limitações históricas:
 
 - Windows:
@@ -36,7 +36,7 @@ Com o passar dos anos, os sistemas operacionais adotaram convenções diferentes
 
 Essas diferenças ainda persistem e impactam projetos que precisam ser executados em ambientes multi-plataforma.
 
-## `-` Impactos no desenvolvimento de software
+## Impactos no desenvolvimento de software
 - Portabilidade
     - Arquivos com diferentes sequências de fim de linha podem apresentar problemas ao serem compartilhados entre sistemas. Por exemplo:
         - Um arquivo criado no Windows (`CRLF`) pode exibir caracteres estranhos ao ser aberto em um editor Linux que espera `LF`.
@@ -48,7 +48,7 @@ Essas diferenças ainda persistem e impactam projetos que precisam ser executado
 - Codificação e Ferramentas
     - Linguagens de programação e ferramentas de processamento de texto podem interpretar de forma diferente os caracteres de EOL. Um exemplo comum é a diferença de comportamento entre `\r\n` e `\n` em strings em Python ou JavaScript.
 
-## `-` Melhor prática em projetos multi-plataforma
+## Melhor prática em projetos multi-plataforma
 Garantir consistência na sequência de fim de linha é essencial para projetos que precisam funcionar em diferentes sistemas operacionais. A adoção de práticas e ferramentas adequadas pode prevenir problemas e simplificar o desenvolvimento.
 
 - Escolha e documente um padrão de EOL
@@ -74,15 +74,15 @@ Garantir consistência na sequência de fim de linha é essencial para projetos 
 - Considere a plataforma de destino
     - Sistemas que processam os arquivos: Pense no ambiente em que o software será executado. Se o sistema destino exige `CRLF` (exemplo: arquivos executados nativamente no Windows), configure os arquivos relevantes para adotar este padrão, mesmo que o restante do projeto use `LF`.
 
-## `-` Sequência de fim de linha no PowerShell
+## Sequência de fim de linha no PowerShell
 O PowerShell, como uma ferramenta multi-plataforma, gerencia automaticamente a sequência de fim de linha de acordo com o sistema operacional, oferecendo conveniência para desenvolvedores que trabalham em ambientes heterogêneos.
 
-### `+` Como o PowerShell gerencia EOL
+### Como o PowerShell gerencia EOL
 - **Windows:** Adota `CRLF` (`\r\n`) por padrão, alinhando-se à convenção histórica do sistema operacional.
 - **Linux e macOS:** Utiliza `LF` (`\n`), como é comum em sistemas baseados em Unix.
 - **Abstração Multi-Plataforma:** Cmdlets como `Get-Content`, `Set-Content` e `Out-File` ajustam automaticamente a sequência de fim de linha de acordo com o ambiente. Isso torna a manipulação de arquivos transparente para o desenvolvedor na maioria dos casos.
 
-### `+`  Escrevendo scripts portáveis
+###  Escrevendo scripts portáveis
 Embora o PowerShell gerencie EOL automaticamente, algumas práticas ajudam a garantir que seus scripts sejam executados de forma consistente em todas as plataformas:
 
 - Evite depender de EOL específicas
@@ -100,7 +100,7 @@ Embora o PowerShell gerencie EOL automaticamente, algumas práticas ajudam a gar
 - Teste em ambientes diferentes
     - Execute e valide seus scripts em todas as plataformas suportadas (Windows, Linux e macOS). Isso ajuda a identificar problemas antes que eles impactem usuários finais.
 
-### `+` Melhor prática para projetos em PowerShell
+### Melhor prática para projetos em PowerShell
 - Centralize a consistência de EOL
     - Configure ferramentas como Git para garantir consistência de EOL em repositórios compartilhados:
     ```

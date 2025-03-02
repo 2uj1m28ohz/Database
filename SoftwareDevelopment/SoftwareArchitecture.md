@@ -1,8 +1,8 @@
-# `/` Arquitetura de Software
+# Arquitetura de Software
 
 ![](/SoftwareDevelopment/Image.png)
 
-`>` `Binary Code/David Camargo`
+> Binary Code/David Camargo
 
 A arquitetura de software lida com a estruturação e organização de sistemas de software. Ela envolve o design de grandes componentes estruturais, seus relacionamentos e como esses componentes interagem para formar um sistema completo.
 
@@ -21,7 +21,7 @@ A arquitetura de software é um conceito abrangente que engloba diferentes estil
 
 A arquitetura monolítica e a arquitetura modular são apenas duas maneiras específicas de estruturar um sistema de software dentro desse espectro mais amplo. Elas representam diferentes abordagens para lidar com a organização e interconexão dos componentes de um sistema, cada uma com suas próprias vantagens e desvantagens.
 
-## `-` Arquitetura Monolítica
+## Arquitetura Monolítica
 A arquitetura monolítica é um estilo de design de software onde todas as partes de uma aplicação estão interligadas e combinadas em um único programa. Aqui estão algumas características e vantagens dessa abordagem:
 
 - Características da Arquitetura Monolítica:
@@ -38,7 +38,7 @@ A arquitetura monolítica é um estilo de design de software onde todas as parte
 
 No entanto, é importante notar que enquanto a arquitetura monolítica tem suas vantagens, também possui desafios significativos, especialmente quando a aplicação cresce e as demandas de escalabilidade e manutenção aumentam. Esses desafios levaram ao surgimento de outras abordagens, como arquiteturas baseadas em microsserviços e arquiteturas modulares, que visam resolver algumas das limitações das arquiteturas monolíticas em sistemas maiores e mais complexos.
 
-## `-` Arquitetura Modular
+## Arquitetura Modular
 A arquitetura modular é um estilo de design de software onde um sistema é dividido em módulos independentes, cada um responsável por funcionalidades específicas.
 
 - Características da Arquitetura Modular:

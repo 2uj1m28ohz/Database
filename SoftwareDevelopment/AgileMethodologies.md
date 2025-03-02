@@ -1,8 +1,8 @@
-# `/` Metodologias Ágeis
+# Metodologias Ágeis
 
 ![](/SoftwareDevelopment/Image.png)
 
-`>` `Binary Code/David Camargo`
+> Binary Code/David Camargo
 
 Metodologias ágeis são abordagens de desenvolvimento de software que enfatizam a flexibilidade, colaboração, feedback contínuo, na entrega iterativa e incremental. Elas foram criadas como uma alternativa aos métodos tradicionais de desenvolvimento de software, como o modelo cascata (waterfall), que geralmente eram mais rígidos e menos adaptáveis a mudanças.
 
@@ -18,7 +18,7 @@ Alguns exemplos de metodologias ágeis incluem Extreme Programming (XP) e Scrum,
 
 As metodologias ágeis têm sido amplamente adotadas na indústria de software devido à sua capacidade de responder rapidamente a mudanças e entregar valor de forma mais eficaz.
 
-## `-` Extreme Programming
+## Extreme Programming
 O Extreme Programming (XP) é uma metodologia ágil que visa melhorar a qualidade do software e a satisfação do cliente por meio de práticas de desenvolvimento que enfatizam a comunicação, feedback contínuo e flexibilidade para lidar com mudanças nos requisitos do projeto.
 
 - Características do Extreme Programming (XP):
@@ -39,7 +39,7 @@ O Extreme Programming (XP) é uma metodologia ágil que visa melhorar a qualidad
 
 O XP é especialmente eficaz em projetos onde os requisitos são voláteis e a necessidade de adaptação é alta. Sua abordagem focada na qualidade, feedback e comunicação contínua é valorizada por equipes que buscam melhorar a entrega de software de maneira eficaz e iterativa.
 
-## `-` Scrum
+## Scrum
 Scrum é um framework utilizado para gerenciar projetos complexos e desenvolvimento de produtos. Ele enfatiza a colaboração, a flexibilidade e a entrega iterativa e incremental. Existem várias vantagens associadas à adoção do Scrum, incluindo:
 
 - Características do Scrum:
@@ -59,7 +59,7 @@ Scrum é um framework utilizado para gerenciar projetos complexos e desenvolvime
 
 O Scrum é amplamente utilizado devido à sua capacidade de promover a entrega de software de alta qualidade de maneira iterativa, permitindo a adaptação a mudanças nos requisitos e a maximização do valor entregue ao cliente. Sua estrutura clara e suas práticas bem definidas são altamente valorizadas por equipes que buscam um framework ágil para gerenciar e entregar projetos com eficiência.
 
-## `-` Kanban
+## Kanban
 O Kanban é um método visual para gerenciar o trabalho, com foco na limitação do trabalho em progresso (WIP), fluxo contínuo e otimização do processo.
 
 - Características do Kanban:
@@ -79,7 +79,7 @@ O Kanban é um método visual para gerenciar o trabalho, com foco na limitação
 
 O Kanban é frequentemente adotado em equipes que buscam uma abordagem mais flexível para gerenciar o trabalho, permitindo uma visibilidade clara das tarefas e promovendo um fluxo de trabalho mais suave e eficiente. Sua simplicidade e capacidade de adaptação são pontos fortes que o tornam uma escolha popular para muitas equipes e projetos.
 
-## `-` Lean
+## Lean
 O Lean Software Development é uma abordagem baseada nos princípios do Lean Manufacturing, visando eliminar desperdícios, maximizar o valor e melhorar continuamente o processo de desenvolvimento de software.
 
 - Características do Lean Software Development:

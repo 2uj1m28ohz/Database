@@ -1,8 +1,8 @@
-# `/` Design de Software
+# Design de Software
 
 ![](/SoftwareDevelopment/Image.png)
 
-`>` `Binary Code/David Camargo`
+> Binary Code/David Camargo
 
 O design de software é o processo de conceber e planejar a estrutura, a arquitetura e os componentes de um sistema de software. Ele envolve tomar decisões sobre como os diferentes elementos do software serão organizados para atender aos requisitos funcionais e não funcionais do sistema. Esse processo inclui várias etapas:
 
@@ -14,7 +14,7 @@ O design de software é o processo de conceber e planejar a estrutura, a arquite
 
 O design de software não se limita apenas à fase inicial do desenvolvimento; é um processo contínuo e iterativo à medida que o software é construído, testado e refinado. Ele visa criar sistemas que sejam funcionais, confiáveis, eficientes, de fácil manutenção e adaptação a mudanças futuras. Além disso, o design de software frequentemente aborda questões de arquitetura, segurança, usabilidade e desempenho para garantir que o produto final atenda às necessidades do cliente e aos padrões de qualidade estabelecidos.
 
-## `-` Clean Code
+## Clean Code
 Clean Code é um conceito que se refere à prática de escrever código de programação de forma clara, simples e legível. O código limpo é fácil de entender, manter e modificar, além de seguir boas práticas de design e ser de alta qualidade. Alguns princípios associados ao Clean Code incluem:
 
 - **Legibilidade:** O código é escrito de maneira clara, com nomes significativos para variáveis, funções e classes, facilitando a compreensão do que o código faz.
@@ -28,7 +28,7 @@ Clean Code é um conceito que se refere à prática de escrever código de progr
 
 O Clean Code não se trata apenas de escrever código que funcione, mas sim de criar código que seja fácil de entender, manter e evoluir ao longo do tempo. Isso é essencial para equipes de desenvolvimento que precisam colaborar em projetos complexos, já que um código limpo reduz erros, melhora a produtividade e torna o processo de desenvolvimento mais eficiente.
 
-## `-` SOLID
+## SOLID
 SOLID é um acrônimo que representa cinco princípios de design de software que visam criar sistemas mais compreensíveis, flexíveis e fáceis de manter. Esses princípios foram introduzidos por Robert C. Martin, conhecido como Uncle Bob, e são considerados fundamentais para o desenvolvimento de software orientado a objetos. Os cinco princípios SOLID são:
 
 - **SRP - Single Responsibility Principle (Princípio da Responsabilidade Única):** Este princípio afirma que uma classe deve ter apenas uma razão para mudar. Em outras palavras, uma classe deve ter uma única responsabilidade ou função bem definida no sistema. Isso ajuda a manter o código mais coeso, facilitando sua compreensão e manutenção.
@@ -39,7 +39,7 @@ SOLID é um acrônimo que representa cinco princípios de design de software que
 
 Os princípios SOLID são diretrizes poderosas para desenvolver software mais robusto, flexível e de fácil manutenção. Quando aplicados corretamente, ajudam a criar sistemas mais escaláveis, com código mais limpo e menos propenso a erros. Ambos estão intimamente relacionados e se complementam no contexto do desenvolvimento de software de alta qualidade.
 
-## `-` Diferenças
+## Diferenças
 Clean Code se refere principalmente à legibilidade, manutenibilidade e facilidade de compreensão do código. Envolve práticas como usar nomes significativos para variáveis, funções e classes, escrever comentários úteis e organizar o código de maneira clara e lógica. Clean Code busca criar um código que seja fácil de ler, entender e manter.
 
 SOLID, por outro lado, são cinco princípios de design que se concentram mais nas relações entre classes, na estruturação do código e na flexibilidade do sistema. SOLID busca criar um design de software que seja modular, flexível, fácil de estender e menos propenso a problemas quando novos recursos são adicionados ou alterações são feitas.

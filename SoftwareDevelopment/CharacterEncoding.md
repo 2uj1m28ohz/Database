@@ -1,8 +1,8 @@
-# `/` Codificação de Caracteres
+# Codificação de Caracteres
 
 ![](/SoftwareDevelopment/Image.png)
 
-`>` `Binary Code/David Camargo`
+> Binary Code/David Camargo
 
 A codificação de caracteres é um sistema que atribui códigos numéricos a caracteres e símbolos para permitir sua representação em computadores e dispositivos eletrônicos. Ela é essencial para a transmissão, armazenamento e exibição de texto em diferentes idiomas e sistemas de computador.
 
@@ -20,13 +20,13 @@ Nos sistemas operacionais atuais, como Windows, macOS, Linux e outros, o UTF-8 �
 
 Muitos desenvolvedores e administradores de sistemas preferem usar UTF-8 como a codificação de caracteres padrão em seus projetos devido à sua versatilidade e compatibilidade com diferentes idiomas e sistemas, facilitando a internacionalização e garantindo uma representação precisa de caracteres em várias línguas.
 
-## `-` ASCII
+## ASCII
 ASCII (American Standard Code for Information Interchange) é um conjunto de caracteres que atribui códigos numéricos a letras, números, símbolos e comandos especiais usados em computadores e dispositivos. O ASCII originalmente inclui 128 caracteres e foi amplamente utilizado em sistemas informáticos mais antigos. No entanto, ele só era capaz de representar caracteres da língua inglesa e carecia de suporte para muitos outros idiomas e símbolos.
 
-## `-` Unicode
+## Unicode
 Unicode é um padrão de codificação que visa representar todos os caracteres de todas as línguas e sistemas de escrita conhecidos. Ele define uma tabela de caracteres que atribui um número único (chamado de code point) a cada caractere, símbolo ou ideograma. O Unicode inclui muito mais caracteres do que o ASCII e é capaz de representar uma ampla gama de idiomas, símbolos e emojis.
 
-## `-` UTF
+## UTF
 UTF (Unicode Transformation Format) é uma família de esquemas de codificação que implementam o padrão Unicode para representar esses code points como sequências de bytes. As diferentes variantes do UTF incluem UTF-8, UTF-16 e UTF-32. Cada uma dessas variantes do UTF (Unicode Transformation Format) é uma forma de codificar os code points do Unicode em sequências de bytes para representar caracteres. Aqui está uma descrição de cada uma:
 
 - UTF-8:
@@ -49,7 +49,7 @@ UTF (Unicode Transformation Format) é uma família de esquemas de codificação
 
 A escolha entre UTF-8, UTF-16 e UTF-32 geralmente depende das necessidades do sistema em relação ao suporte de idiomas, eficiência de armazenamento e processamento, bem como a necessidade de representar caracteres fora do BMP. O UTF-8 é comumente usado na web devido à sua eficiência de espaço e compatibilidade com ASCII, enquanto o UTF-16 e UTF-32 são mais adequados para ambientes que lidam com um grande número de caracteres além dos 65.536 primeiros caracteres Unicode.
 
-### `+` Byte Order Mark
+### Byte Order Mark
 O BOM (Byte Order Mark) é uma sequência especial de bytes usada para indicar a ordem dos bytes em um arquivo de texto. O BOM é relevante principalmente em sistemas que armazenam texto codificado em UTF-16 ou UTF-32 para indicar se os bytes mais significativos ou menos significativos vêm primeiro. No caso do UTF-8:
 
 - UTF-8 BOM (UTF-8 with BOM):

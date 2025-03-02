@@ -1,8 +1,8 @@
-# `/` Interface
+# Interface
 
 ![](/SoftwareDevelopment/Image.png)
 
-`>` `Binary Code/David Camargo`
+> Binary Code/David Camargo
 
 Uma interface, em termos gerais, é um ponto de conexão ou interação entre dois sistemas, entidades ou componentes distintos. No contexto do software, uma interface é um meio pelo qual os usuários interagem com um programa ou sistema de computador.
 
@@ -23,7 +23,7 @@ As interfaces entre software e usuário podem variar em termos de design, intera
 
 Cada tipo de interface tem suas vantagens e é escolhido com base na usabilidade, contexto de uso e público-alvo do software. Muitas vezes, os aplicativos modernos empregam múltiplas formas de interface para oferecer uma experiência mais abrangente e inclusiva aos usuários.
 
-## `-` Graphical User Interface
+## Graphical User Interface
 A Graphical User Interface (GUI) é um tipo de interface de usuário que permite a interação com dispositivos ou softwares utilizando elementos gráficos como janelas, botões, ícones e menus. Em contraste com interfaces baseadas em texto, as GUIs fornecem uma maneira mais visual e intuitiva para os usuários interagirem com o sistema.
 
 - Características da GUI:
@@ -44,7 +44,7 @@ A Graphical User Interface (GUI) é um tipo de interface de usuário que permite
 
 As GUIs revolucionaram a forma como interagimos com os dispositivos e aplicativos, facilitando significativamente o uso de computadores e dispositivos eletrônicos por um público mais amplo. Essas interfaces continuam a evoluir, incorporando novos recursos e melhorias para oferecer uma experiência de usuário cada vez mais amigável e eficiente.
 
-## `-` Command Line Interface
+## Command Line Interface
 A Command Line Interface (CLI) é um tipo de interface de usuário na qual os comandos são digitados em um prompt de comando para interagir com um sistema ou software. Ao contrário das interfaces gráficas que usam elementos visuais, as CLIs dependem de comandos de texto para executar operações.
 
 - Características da CLI:

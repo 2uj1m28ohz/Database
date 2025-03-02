@@ -1,8 +1,8 @@
-# `/` Versionamento de Software
+# Versionamento de Software
 
 ![](/SoftwareDevelopment/Image.png)
 
-`>` `Binary Code/David Camargo`
+> Binary Code/David Camargo
 
 O versionamento de software é o processo de controlar e gerenciar diferentes versões de um programa ou sistema ao longo do tempo. Ele é essencial para acompanhar e registrar as mudanças feitas no código-fonte e nos arquivos de um software, permitindo que os desenvolvedores trabalhem colaborativamente, acompanhem as alterações feitas, revertam para versões anteriores, e garantam a integridade e a evolução do projeto.
 
@@ -15,7 +15,7 @@ Alguns dos principais sistemas de controle de versão são:
 - **Perforce:** Um sistema de controle de versão que se destaca por sua capacidade de lidar com grandes volumes de dados e arquivos binários, comumente usado em grandes empresas e na indústria de jogos.
 - **Team Foundation Version Control (TFVC):** Desenvolvido pela Microsoft, é uma opção centralizada similar ao SVN que integra-se bem ao ecossistema de desenvolvimento do Visual Studio e outros produtos da Microsoft.
 
-## `-` Semantic Versioning
+## Semantic Versioning
 O Semantic Versioning (SemVer) é um sistema padronizado para numerar as versões de um software, permitindo uma compreensão clara e consistente das mudanças feitas em uma aplicação.
 
 - Formato do Semantic Versioning: MAJOR.MINOR.PATCH
@@ -39,7 +39,7 @@ O SemVer também permite o uso de etiquetas de pré-lançamento e metadados de c
 
 O Semantic Versioning é um sistema robusto e amplamente adotado que ajuda os desenvolvedores a entenderem e comunicarem melhor as mudanças em seus softwares, facilitando a vida tanto dos criadores quanto dos usuários finais.
 
-## `-` Calendar Versioning
+## Calendar Versioning
 O Calendar Versioning (CalVer) é um sistema de versionamento que utiliza datas como base para numerar as versões de um software, trazendo uma abordagem temporal para indicar quando uma versão foi lançada.
 
 - Formato do Calendar Versioning: YYYY.MM.DD ou YYYY.MM (ou variantes semelhantes)
