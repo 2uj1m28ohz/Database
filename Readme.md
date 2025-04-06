@@ -9,64 +9,52 @@ Este repositório compila as lições, práticas e informações acumuladas ao l
 Mais do que uma simples coleção de dados, Database representa um esforço para compartilhar esse conhecimento com outros profissionais ou entusiastas da tecnologia. Ao reunir uma variedade de temas de forma prática e acessível, este repositório busca facilitar o aprendizado e ajudar quem deseja aprimorar suas habilidades enquanto avança em suas próprias jornadas.
 
 ### Licenças de Software
-- [Introdução][Introdução1]
-- [Licenças][Licenças]
+- [Introdução][Introducao1]
+- [Licenças][Licencas]
 - [Escolha][Escolha]
 
 ### Desenvolvimento de Software
 - [Arquitetura de Software][Arquitetura de Software]
 - [Design de Software][Design de Software]
-- [Codificação de Caracteres][Codificação de Caracteres]
-- [Sequência de Fim de Linha][Sequência de Fim de Linha]
-- [Metodologias Ágeis][Metodologias Ágeis]
+- [Codificação de Caracteres][Codificacao de Caracteres]
+- [Sequência de Fim de Linha][Sequencia de Fim de Linha]
+- [Metodologias Ágeis][Metodologias Ageis]
 - [Interface][Interface]
 - [Versionamento de Software][Versionamento de Software]
 
 ### Backup de Dados
-- [Introdução][Introdução2]
-- [Métodos][Métodos]
+- [Introdução][Introducao2]
+- [Métodos][Metodos]
 - [Abordagens][Abordagens]
-- [Estratégias][Estratégias]
+- [Estratégias][Estrategias]
 - [Armazenamento][Armazenamento]
 - [Performance][Performance]
 
 <h1></h1>
 
-<br>
-
-<p align="center">
-	<a href="/Contributing.md">Contribuindo</a>
-	·
-	<a href="/CodeOfConduct.md">Código de Conduta</a>
-	·
-	<a href="/License.md">Licenciamento</a>
-</p>
-
-<h1></h1>
-
 <p align="center">
 	<sub>
-		Pull Requests via repositório não são aceitos. Verifique a documentação. Copyright © 2021-2025 David Camargo. Consulte informações detalhadas sobre o licenciamento deste projeto.
+		Pull Requests via repositório não são aceitos. Copyright © 2021-2025 David Camargo. Este projeto está disponível sob os termos da licença <a href="/License.txt">CC-BY-NC-SA-4.0</a>.
 	</sub>
 </p>
 
 [Workflow]: https://github.com/2uj1m28ohz/workflow
 
-[Introdução1]: /SoftwareLicenses/Introduction.md
-[Licenças]: /SoftwareLicenses/Licenses.md
+[Introducao1]: /SoftwareLicenses/Introduction.md
+[Licencas]: /SoftwareLicenses/Licenses.md
 [Escolha]: /SoftwareLicenses/Choose.md
 
 [Arquitetura de Software]: /SoftwareDevelopment/SoftwareArchitecture.md
 [Design de Software]: /SoftwareDevelopment/SoftwareDesign.md
-[Codificação de Caracteres]: /SoftwareDevelopment/CharacterEncoding.md
-[Sequência de Fim de Linha]: /SoftwareDevelopment/EndOfLineSequence.md
-[Metodologias Ágeis]: /SoftwareDevelopment/AgileMethodologies.md
+[Codificacao de Caracteres]: /SoftwareDevelopment/CharacterEncoding.md
+[Sequencia de Fim de Linha]: /SoftwareDevelopment/EndOfLineSequence.md
+[Metodologias Ageis]: /SoftwareDevelopment/AgileMethodologies.md
 [Interface]: /SoftwareDevelopment/Interface.md
 [Versionamento de Software]: /SoftwareDevelopment/SoftwareVersioning.md
 
-[Introdução2]: /DataBackup/Introduction.md
-[Métodos]: /DataBackup/Methods.md
+[Introducao2]: /DataBackup/Introduction.md
+[Metodos]: /DataBackup/Methods.md
 [Abordagens]: /DataBackup/Approaches.md
-[Estratégias]: /DataBackup/Strategies.md
+[Estrategias]: /DataBackup/Strategies.md
 [Armazenamento]: /DataBackup/Storage.md
 [Performance]: /DataBackup/Performance.md
