@@ -14,38 +14,90 @@ O design de software é o processo de conceber e planejar a estrutura, a arquite
 
 O design de software não se limita apenas à fase inicial do desenvolvimento; é um processo contínuo e iterativo à medida que o software é construído, testado e refinado. Ele visa criar sistemas que sejam funcionais, confiáveis, eficientes, de fácil manutenção e adaptação a mudanças futuras. Além disso, o design de software frequentemente aborda questões de arquitetura, segurança, usabilidade e desempenho para garantir que o produto final atenda às necessidades do cliente e aos padrões de qualidade estabelecidos.
 
-## Clean Code
-Clean Code é um conceito que se refere à prática de escrever código de programação de forma clara, simples e legível. O código limpo é fácil de entender, manter e modificar, além de seguir boas práticas de design e ser de alta qualidade. Alguns princípios associados ao Clean Code incluem:
+## Design Patterns
+Padrões de projeto são soluções reutilizáveis para problemas recorrentes de design de software. Eles descrevem estruturas e interações entre classes e objetos de forma genérica, permitindo adaptar boas práticas a diferentes contextos.
 
-- **Legibilidade:** O código é escrito de maneira clara, com nomes significativos para variáveis, funções e classes, facilitando a compreensão do que o código faz.
-- **Simplicidade:** Evita a complexidade desnecessária, mantendo as soluções simples e diretas.
-- **Organização:** Divide o código em partes lógicas, como funções ou classes, para facilitar a compreensão e a manutenção.
-- **Comentários úteis:** Os comentários são usados de forma parcimoniosa e apenas quando necessário para explicar o porquê de certas decisões ou soluções complexas.
-- **Testabilidade:** É fácil escrever testes para o código, permitindo a verificação de seu funcionamento de maneira confiável.
-- **Manutenibilidade:** O código é escrito de forma a facilitar alterações futuras sem introduzir problemas.
-- **Conformidade com padrões:** Segue as convenções e padrões de codificação estabelecidos na linguagem ou na comunidade, o que torna o código mais consistente e compreensível para outros programadores.
-- **Baixo acoplamento e alta coesão:** As partes do código são independentes umas das outras (baixo acoplamento) e têm uma funcionalidade clara e específica (alta coesão).
-
-O Clean Code não se trata apenas de escrever código que funcione, mas sim de criar código que seja fácil de entender, manter e evoluir ao longo do tempo. Isso é essencial para equipes de desenvolvimento que precisam colaborar em projetos complexos, já que um código limpo reduz erros, melhora a produtividade e torna o processo de desenvolvimento mais eficiente.
+- **Padrões de Criação (Creational):** abstratificam e encapsulam o processo de instanciar objetos. Exemplos: Singleton, Factory Method, Abstract Factory, Builder, Prototype.
+- **Padrões Estruturais (Structural):** organizam como classes e objetos se combinam para formar estruturas maiores. Exemplos: Adapter, Decorator, Facade, Composite, Bridge.
+- **Padrões Comportamentais (Behavioral):** definem a forma de comunicação e responsabilidade entre objetos. Exemplos: Observer, Strategy, Command, State, Template Method.
 
 ## SOLID
-SOLID é um acrônimo que representa cinco princípios de design de software que visam criar sistemas mais compreensíveis, flexíveis e fáceis de manter. Esses princípios foram introduzidos por Robert C. Martin, conhecido como Uncle Bob, e são considerados fundamentais para o desenvolvimento de software orientado a objetos. Os cinco princípios SOLID são:
+Conjunto de cinco princípios de design orientado a objetos que garantem sistemas mais flexíveis, extensíveis e fáceis de manter.
 
-- **SRP - Single Responsibility Principle (Princípio da Responsabilidade Única):** Este princípio afirma que uma classe deve ter apenas uma razão para mudar. Em outras palavras, uma classe deve ter uma única responsabilidade ou função bem definida no sistema. Isso ajuda a manter o código mais coeso, facilitando sua compreensão e manutenção.
-- **OCP - Open/Closed Principle (Princípio do Aberto/Fechado):** Esse princípio preconiza que as entidades de software (classes, módulos, funções etc.) devem ser abertas para extensão, mas fechadas para modificação. Isso significa que o código deve ser projetado de forma que seja possível estender seu comportamento sem alterar o código-fonte original.
-- **LSP - Liskov Substitution Principle (Princípio da Substituição de Liskov):** Esse princípio afirma que os objetos de uma classe derivada devem ser substituíveis por objetos de sua classe base sem afetar a integridade do programa. Em termos simples, isso significa que os objetos devem ser substituíveis por suas subclasses sem causar problemas no programa.
-- **ISP - Interface Segregation Principle (Princípio da Segregação de Interfaces):** Esse princípio sugere que interfaces maiores e generalizadas devem ser divididas em interfaces menores e mais específicas, adaptadas às necessidades exatas do cliente. Isso evita a implementação de métodos não utilizados e reduz a dependência de classes a funcionalidades que não são relevantes para elas.
-- **DIP - Dependency Inversion Principle (Princípio da Inversão de Dependência):** Esse princípio propõe que as classes de alto nível não devem depender de classes de baixo nível, mas sim de abstrações. Além disso, detalhes de implementação devem depender de abstrações, não o contrário. Isso promove a flexibilidade e a reutilização de código.
+- **SRP (Single Responsibility):** cada classe tem uma única razão para mudar.
+- **OCP (Open/Closed):** entidades abertas para extensão, fechadas para modificação.
+- **LSP (Liskov Substitution):** subclasses devem ser substituíveis pelas superclasses sem quebrar o sistema.
+- **ISP (Interface Segregation):** interfaces específicas em vez de genéricas, evitando métodos não usados.
+- **DIP (Dependency Inversion):** depende-se de abstrações, não de implementações concretas.
 
-Os princípios SOLID são diretrizes poderosas para desenvolver software mais robusto, flexível e de fácil manutenção. Quando aplicados corretamente, ajudam a criar sistemas mais escaláveis, com código mais limpo e menos propenso a erros. Ambos estão intimamente relacionados e se complementam no contexto do desenvolvimento de software de alta qualidade.
+## Manifesto Ágil
+O Manifesto Ágil, criado em 2001 por 17 desenvolvedores, estabelece quatro valores centrais e 12 princípios que guiam a prática de desenvolvimento de software de forma flexível e colaborativa.
 
-## Diferenças
-Clean Code se refere principalmente à legibilidade, manutenibilidade e facilidade de compreensão do código. Envolve práticas como usar nomes significativos para variáveis, funções e classes, escrever comentários úteis e organizar o código de maneira clara e lógica. Clean Code busca criar um código que seja fácil de ler, entender e manter.
+- Valores
+    - Indivíduos e interações mais que processos e ferramentas.
+    - Software funcionando mais que documentação abrangente.
+    - Colaboração com o cliente mais que negociação de contratos.
+    - Responder a mudanças mais que seguir um plano.
 
-SOLID, por outro lado, são cinco princípios de design que se concentram mais nas relações entre classes, na estruturação do código e na flexibilidade do sistema. SOLID busca criar um design de software que seja modular, flexível, fácil de estender e menos propenso a problemas quando novos recursos são adicionados ou alterações são feitas.
+- Princípios
+    - Satisfazer o cliente através da entrega contínua e antecipada de software de valor.
+    - Aceitar mudanças de requisitos, mesmo tardiamente no desenvolvimento, para vantagem competitiva do cliente.
+    - Entregar software funcionando com frequência, preferencialmente em ciclos curtos (semanas a meses).
+    - Pessoas de negócio e desenvolvedores devem trabalhar juntas diariamente ao longo do projeto.
+    - Construir projetos em torno de indivíduos motivados; dar ambiente, apoio e confiar neles para fazer o trabalho.
+    - A forma mais eficiente e eficaz de transmitir informações é a comunicação face a face.
+    - Software funcionando é a medida primária de progresso.
+    - Processos ágeis promovem desenvolvimento sustentável; patrocinadores, desenvolvedores e usuários devem manter ritmo constante indefinidamente.
+    - Atenção contínua à excelência técnica e bom design aumenta a agilidade.
+    - Simplicidade é essencial.
+    - As melhores arquiteturas, requisitos e designs emergem de equipes auto-organizadas.
+    - Em intervalos regulares, a equipe reflete sobre como se tornar mais eficaz e ajusta seu comportamento de acordo.
 
-- **Escopo:** Clean Code se concentra principalmente na legibilidade e manutenção do código-fonte, enquanto SOLID trata mais especificamente do design de classes e da estruturação do código.
-- **Objetivos:** Clean Code visa tornar o código mais legível, entendível e fácil de manter. SOLID, por sua vez, busca criar um design de software mais flexível, extensível e menos propenso a introduzir problemas ao fazer alterações.
-- **Abordagem:** Clean Code inclui práticas gerais e diretrizes para escrever código mais limpo, enquanto SOLID são princípios específicos que orientam o design de software, especialmente em relação à orientação a objetos.
+## Domain-Driven Design (DDD)
+Abordagem de desenvolvimento que coloca o domínio de negócio no centro, criando um modelo rico e alinhado às regras e linguagens dos especialistas.
 
-Clean Code e SOLID estão inter-relacionados no sentido de que ambos visam melhorar a qualidade do software, mas focam em aspectos diferentes: Clean Code nas práticas de codificação e legibilidade, e SOLID nos princípios de design que influenciam a estruturação e extensibilidade do sistema. Ambos são fundamentais para a criação de software de alta qualidade e são frequentemente aplicados em conjunto para obter sistemas robustos e fáceis de manter.
+- **Ubiquitous Language:** vocabulário comum usado em código e comunicação.
+- **Bounded Contexts:** contextos bem definidos com seus próprios modelos e limites.
+- **Entidades e Value Objects:** distinção entre objetos com identidade e objetos imutáveis.
+- **Aggregates:** agrupamentos de entidades/value objects que garantem consistência transacional.
+- **Repositories:** abstrações para persistência, isolando detalhes de infra.
+- **Domain Services & Domain Events:** lógica de domínio fora de entidades e eventos que registram ocorrências relevantes.
+
+## Clean Code
+Prática de escrever código claro, simples e legível, seguindo boas práticas para facilitar entendimento e manutenção.
+
+- **Legibilidade:** nomes significativos para variáveis, funções e classes.
+- **Simplicidade:** evita complexidade desnecessária, soluções diretas.
+- **Organização:** divide o código em funções ou classes com responsabilidade única.
+- **Comentários úteis:** usados apenas para explicar decisões não óbvias.
+- **Testabilidade:** facilita a criação de testes unitários e de integração.
+- **Baixo acoplamento e alta coesão:** partes independentes com foco em responsabilidades claras.
+- **Conformidade com padrões:** segue convenções da linguagem/comunidade.
+
+## Object Calisthenics
+Conjunto de nove regras de Jeff Bay para exercitar a disciplina de escrever código mais limpo e focado em objetos.
+
+- **Regra 1 – Um nível de indentação por método:** evita aninhamentos profundos.
+- **Regra 2 – Encapsular todo primitivo ou string:** promove Value Objects.
+- **Regra 3 – Coleções de primeira classe:** use classes para representar grupos de objetos.
+- **Regra 4 – Uma chamada (.) por linha:** obedece ao princípio de Demeter.
+- **Regra 5 – Não abreviar nomes:** privilégia clareza e semântica.
+- **Regra 6 – Manter classes pequenas:** menos de 50 linhas é uma boa métrica.
+- **Regra 7 – Sem getters/setters expostos:** favorece comportamento sobre dados.
+- **Regra 8 – Evitar métodos estáticos:** reduz acoplamento global.
+- **Regra 9 – Transições de estado em vez de setters:** modela mudanças de forma explícita.
+
+## Desenvolvimento Orientado por Testes (TDD)
+TDD é uma abordagem que inverte o fluxo tradicional de desenvolvimento: você escreve primeiro um teste que falha e, só então, implementa o código mínimo para fazê-lo passar, seguindo o ciclo `Red` `>` `Green` `>` `Refactor`. Isso garante que todo código seja validado desde o início e que o design emerja organicamente a partir dos próprios testes.
+
+- Ciclo Red/Green/Refactor
+    - **Red:** escreva um teste para uma nova funcionalidade; ele deve falhar inicialmente.
+    - **Green:** implemente o menor trecho de código que faça o teste passar.
+    - **Refactor:** limpe e melhore o código, mantendo todos os testes verdes.
+
+- Por que adotar o TDD
+    - **Design guiado por testes:** o próprio conjunto de testes define APIs claras e responsabilidades bem delimitadas.
+    - **Feedback imediato:** regressões e erros são detectados assim que aparecem.
+    - **Documentação viva:** a suíte de testes serve como especificação do comportamento esperado.
+    - **Confiança para refatorar:** com todos os testes passando, você pode reestruturar sem medo de quebrar algo.
+    - **Código mais modular e testável:** como você só escreve o mínimo necessário para cada teste, o sistema tende a ficar mais desacoplado.

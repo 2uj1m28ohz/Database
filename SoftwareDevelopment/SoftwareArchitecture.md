@@ -10,51 +10,190 @@ Em termos simples, é como criar um plano ou uma planta baixa para a construçã
 
 A arquitetura de software abrange decisões importantes, como escolha de tecnologias, organização de módulos, distribuição de tarefas, gerenciamento de dados, interfaces do usuário e como todas essas partes se integram para criar um sistema coeso e funcional.
 
-Dentro da arquitetura de software, a classificação de uma aplicação como monolítica ou modular é uma maneira de descrever a estrutura ou o design geral do sistema. Ambas são abordagens arquiteturais que se enquadram dentro do campo mais amplo da arquitetura de software.
-
 A arquitetura de software é um conceito abrangente que engloba diferentes estilos, padrões e abordagens para criar e organizar sistemas de software. Ela não se limita a uma única forma de desenvolver um sistema, mas sim inclui diversas estratégias e metodologias, como:
 
-- **Arquitetura de componentes:** Baseada na ideia de dividir o sistema em componentes independentes que podem ser desenvolvidos e mantidos separadamente.
-- **Arquitetura em camadas:** Separa o sistema em camadas distintas, como a camada de apresentação, lógica de negócios e acesso a dados, cada uma responsável por funções específicas.
-- **Arquitetura orientada a serviços (SOA):** Utiliza serviços independentes que se comunicam por meio de uma rede para realizar funções de negócios.
-- **Arquitetura de microsserviços:** Similar à modularidade, onde o sistema é dividido em serviços pequenos e independentes que se comunicam entre si.
-
-A arquitetura monolítica e a arquitetura modular são apenas duas maneiras específicas de estruturar um sistema de software dentro desse espectro mais amplo. Elas representam diferentes abordagens para lidar com a organização e interconexão dos componentes de um sistema, cada uma com suas próprias vantagens e desvantagens.
-
 ## Arquitetura Monolítica
-A arquitetura monolítica é um estilo de design de software onde todas as partes de uma aplicação estão interligadas e combinadas em um único programa. Aqui estão algumas características e vantagens dessa abordagem:
+Aplicação construída e entregue como uma única unidade, com todos os componentes interligados e compartilhando código-base e recursos.
 
-- Características da Arquitetura Monolítica:
-    - **Estrutura única:** Todo o código é desenvolvido, implantado e gerenciado como uma única unidade.
-    - **Integração direta:** Os componentes estão intimamente integrados, muitas vezes compartilhando o mesmo código-base, bibliotecas e recursos.
-    - **Implantação simples:** Por ser uma única unidade, a implantação da aplicação monolítica é mais simples e requer menos configuração.
-    - **Compartilhamento de recursos:** Componentes podem compartilhar recursos e memória diretamente, facilitando a comunicação entre eles.
+- Características
+    - Estrutura única: todo o código, deploy e gestão ocorrem em um só pacote.
+    - Integração direta: componentes compartilham bibliotecas, memória e recursos.
+    - Implantação simples: basta empacotar e subir uma única artefato.
+    - Compartilhamento de recursos: comunicação interna sem chamadas de rede.
 
-- Vantagens da Arquitetura Monolítica:
-    - **Simplicidade de desenvolvimento:** Geralmente, é mais simples e rápido desenvolver uma aplicação monolítica, já que todos os componentes estão no mesmo código-base.
-    - **Facilidade de implantação:** A implantação é mais simples, já que toda a aplicação é empacotada e implantada de uma só vez.
-    - **Facilidade inicial de escalabilidade:** Em estágios iniciais, quando a carga do sistema é baixa, é mais fácil escalar uma aplicação monolítica, pois normalmente requer menos configuração.
-    - **Menor overhead de comunicação:** Como os componentes estão diretamente integrados, há menos overhead de comunicação entre eles em comparação com sistemas distribuídos.
-
-No entanto, é importante notar que enquanto a arquitetura monolítica tem suas vantagens, também possui desafios significativos, especialmente quando a aplicação cresce e as demandas de escalabilidade e manutenção aumentam. Esses desafios levaram ao surgimento de outras abordagens, como arquiteturas baseadas em microsserviços e arquiteturas modulares, que visam resolver algumas das limitações das arquiteturas monolíticas em sistemas maiores e mais complexos.
+- Vantagens
+    - Simplicidade de desenvolvimento: uma única base de código facilita a implementação inicial.
+    - Facilidade de implantação: zero orquestração de múltiplos serviços.
+    - Escalabilidade inicial simples: basta replicar a mesma aplicação em mais instâncias.
+    - Menor overhead de comunicação: chamadas internas são mais rápidas que chamadas via rede.
 
 ## Arquitetura Modular
-A arquitetura modular é um estilo de design de software onde um sistema é dividido em módulos independentes, cada um responsável por funcionalidades específicas.
+Sistema dividido em módulos independentes, cada um responsável por uma funcionalidade bem definida e isolada.
 
-- Características da Arquitetura Modular:
-    - **Divisão em módulos:** O sistema é dividido em partes independentes, onde cada módulo possui uma função clara e bem definida.
-    - **Baixo acoplamento:** Os módulos são interconectados, mas têm dependências mínimas entre si, o que reduz o impacto das mudanças em um módulo sobre os outros.
-    - **Independência de desenvolvimento:** Cada módulo pode ser desenvolvido, testado e mantido separadamente, o que facilita a colaboração entre equipes e a reutilização de código.
-    - **Facilidade de escalabilidade:** A adição de novos recursos ou a expansão do sistema pode ser feita através da introdução de novos módulos, sem afetar diretamente o restante do sistema.
+- Características
+    - Divisão em módulos: cada parte tem responsabilidade clara e fronteiras definidas.
+    - Baixo acoplamento: dependências mínimas entre módulos.
+    - Independência de desenvolvimento: times podem trabalhar, testar e versionar cada módulo à parte.
+    - Facilidade de escalabilidade: adiciona-se ou dimensiona-se módulos conforme a demanda.
 
-- Vantagens da Arquitetura Modular:
-    - **Manutenção simplificada:** É mais fácil manter e atualizar um sistema modular, já que as mudanças podem ser feitas em módulos específicos sem afetar o sistema inteiro.
-    - **Reutilização de componentes:** Os módulos podem ser reutilizados em diferentes partes do sistema ou em projetos diferentes, economizando tempo e esforço de desenvolvimento.
-    - **Escalabilidade melhorada:** A arquitetura modular facilita a escalabilidade, pois novos módulos podem ser adicionados para lidar com aumento de demanda ou novas funcionalidades.
-    - **Testabilidade aprimorada:** Como os módulos são independentes, é mais fácil testar cada parte separadamente, o que melhora a qualidade do software.
+- Vantagens
+    - Manutenção simplificada: mudanças impactam apenas o módulo afetado.
+    - Reutilização de componentes: módulos podem ser usados em outros projetos ou contextos.
+    - Escalabilidade melhorada: escalonar módulos individuais em vez de toda a aplicação.
+    - Testabilidade aprimorada: testes isolados garantem maior confiabilidade do sistema.
 
-Embora a arquitetura modular ofereça várias vantagens, também requer um planejamento cuidadoso e uma abordagem rigorosa na definição de interfaces entre os módulos para garantir a comunicação adequada entre eles. Além disso, a gestão de dependências entre os módulos é essencial para garantir um sistema coeso e funcional.
+## Arquitetura em Camadas
+Divisão do sistema em camadas hierárquicas (ex.: apresentação, negócio, persistência), cada uma só interage com a camada imediatamente abaixo.
 
-Ambas as abordagens têm vantagens e desvantagens, e a escolha entre elas muitas vezes depende das necessidades específicas do projeto, dos requisitos de escalabilidade, manutenção e dos recursos disponíveis.
+- Características
+    - Separação clara de responsabilidades por camada.
+    - Comunicação unidirecional (camada superior chama a inferior).
+    - Cada camada pode ter tecnologias e times distintos.
 
-Dentro da arquitetura de software, entender e decidir qual dessas abordagens (ou outras) melhor se adequa ao projeto é parte fundamental do processo de design e desenvolvimento.
+- Vantagens
+    - Facilita manutenção e evolução isolada.
+    - Testes concentrados em uma camada sem afetar as outras.
+    - Organização previsível do fluxo de dados e dependências.
+
+## Arquitetura Cliente-Servidor
+Cliente (UI/aplicação leve) consome serviços de um servidor central que gerencia dados e lógica.
+
+- Características
+    - Papéis bem definidos: clientes consumindo APIs do servidor.
+    - Estado centralizado no servidor.
+    - Comunicação via rede (HTTP, TCP).
+
+- Vantagens
+    - Centralização de dados e segurança.
+    - Escalabilidade vertical/horizontal do servidor sem mexer no cliente.
+    - Atualização do servidor reflexiva em todos os clientes.
+
+## Arquitetura Orientada a Serviços (SOA)
+Sistema composto por serviços autônomos que expõem contratos (WSDL/REST) e falam por mensagens.
+
+- Características
+    - Serviços independentes com contratos bem definidos.
+    - Interoperabilidade entre plataformas heterogêneas.
+    - Uso de barramento de serviço ou ESB opcional.
+
+- Vantagens
+    - Reuso de serviços em múltiplos processos de negócio.
+    - Governança e versionamento centralizados.
+    - Integração facilitada com sistemas legados.
+
+## Arquitetura de Microsserviços
+Evolução de SOA com serviços menores, deploy independente e comunicação leve (REST/gRPC).
+
+- Características
+    - Cada microserviço faz uma única função.
+    - Deploy, escalonamento e ciclo de vida independentes.
+    - Conteinerização (Docker/Kubernetes) comum.
+
+- Vantagens
+    - Escalabilidade isolada por serviço.
+    - Time-autonomia na escolha de linguagem e ferramenta.
+    - Tolerância a falhas: isolamento de blast radius.
+
+## Arquitetura Dirigida a Eventos
+Componentes produzem e consomem eventos de forma assíncrona, desacoplando emissor e receptor.
+
+- Características
+    - Uso de filas ou brokers (Kafka, RabbitMQ).
+    - Comunicação assíncrona e reativa.
+    - Emissor não aguarda processamento do consumidor.
+
+- Vantagens
+    - Alta escalabilidade e throughput.
+    - Facilita pipelines de dados e auditoria.
+    - Flexibilidade na adição de novos consumidores.
+
+## Microkernel (Plug-in)
+Núcleo mínimo com funcionalidades básicas, estendido por plug-ins que implementam features extras.
+
+- Características
+    - Kernel leve e estável.
+    - Extensões carregadas dinamicamente.
+    - APIs de plug-in bem definidas.
+
+- Vantagens
+    - Sistema base enxuto e confiável.
+    - Atualização de funcionalidades sem alterar o core.
+    - Comunidade pode desenvolver plug-ins independentes.
+
+## Space-Based Architecture
+Distribui dados e processamento em um “data grid” em memória para lidar com picos de carga.
+
+- Características
+    - Grid distribuído de memória (In-Memory Data Grid).
+    - Processadores e dados co-localizados.
+    - Elimina ponto único de falha e gargalo de BD.
+
+- Vantagens
+    - Baixa latência de acesso a dados.
+    - Escalabilidade horizontal elástica.
+    - Resiliência a falhas de nós isolados.
+
+## Peer-to-Peer (P2P)
+Nós iguais na rede que atuam simultaneamente como cliente e servidor, compartilhando dados.
+
+- Características
+    - Arquitetura descentralizada.
+    - Descoberta dinâmica de peers.
+    - Replicação de dados entre nós.
+
+- Vantagens
+    - Sem ponto único de falha.
+    - Escalabilidade natural conforme entram mais peers.
+    - Resiliência e distribuição de carga.
+
+## Serverless/FaaS
+Funções independentes que rodam sob demanda em nuvem, sem preocupação de servidores.
+
+- Características
+    - Código executado apenas quando estimulado (por evento).
+    - Estateless e de curta duração.
+    - Gerenciamento de infra feito pelo provedor.
+
+- Vantagens
+    - Zero gestão de servidores/instras.
+    - Custo baseado em execução real (“pay-per-use”).
+    - Time-to-market rápido para pequenas funcionalidades.
+
+## Arquitetura Hexagonal (Ports & Adapters)
+Core de domínio isolado de interfaces externas por “portas” e “adaptadores”.
+
+- Características
+    - Núcleo agnóstico a detalhes de infra.
+    - Portas definem interfaces de entrada/saída.
+    - Adaptadores concretizam integração (DB, UI, APIs).
+
+- Vantagens
+    - Testes de domínio sem mocks complexos.
+    - Troca de tecnologias de infra sem mexer no core.
+    - Design mais robusto e modular.
+
+## CQRS + Event Sourcing
+Separa modelo de escrita (Commands) do de leitura (Queries) e persiste estado como eventos imutáveis.
+
+- Características
+    - Dois modelos de dados: um para escrita, outro para leitura.
+    - Store de eventos registra toda mudança de estado.
+    - Reconstrução de estado via replay de eventos.
+
+- Vantagens
+    - Histórico completo e auditável.
+    - Escalonamento de consultas sem impactar escrita.
+    - Flexibilidade para recriar visões de dados.
+
+## Clean Architecture/Onion/DDD
+Organização em camadas concêntricas, com o domínio no centro e dependências apontando para dentro.
+
+- Características
+    - Domínio puro no núcleo, sem dependência de frameworks.
+    - Camadas externas lidam com UI, infra e frameworks.
+    - Inversão de controle e dependência para o núcleo.
+
+- Vantagens
+    - Alto isolamento do domínio e regras de negócio.
+    - Fácil teste de unidades de negócio.
+    - Evolução tecnológica sem afetar o core.
