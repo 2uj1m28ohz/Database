@@ -1,4 +1,9 @@
 # Notas de Lançamento
+
+![](/SoftwareDevelopment/Image.png)
+
+> Binary Code/David Camargo
+
 Um changelog é um documento que lista, em ordem cronológica, todas as mudanças feitas em um projeto de software: correções de bugs, novas funcionalidades, melhorias e quebras de compatibilidade. Ele é essencial para:
 
 - **Comunicação:** mantém time e usuários informados sobre o que mudou.
