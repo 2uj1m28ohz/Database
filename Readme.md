@@ -16,11 +16,12 @@ Mais do que uma simples coleção de dados, Database representa um esforço para
 ### Desenvolvimento de Software
 - [Arquitetura de Software][Arquitetura de Software]
 - [Design de Software][Design de Software]
+- [Metodologias Ágeis][Metodologias Ageis]
 - [Codificação de Caracteres][Codificacao de Caracteres]
 - [Sequência de Fim de Linha][Sequencia de Fim de Linha]
-- [Metodologias Ágeis][Metodologias Ageis]
 - [Interface][Interface]
 - [Versionamento de Software][Versionamento de Software]
+- [Notas de Lançamento][Notas de Lancamento]
 
 ### Backup de Dados
 - [Introdução][Introducao2]
@@ -30,13 +31,10 @@ Mais do que uma simples coleção de dados, Database representa um esforço para
 - [Armazenamento][Armazenamento]
 - [Performance][Performance]
 
-<h1></h1>
-
-<p align="center">
-	<sub>
-		Pull Requests via repositório não são aceitos. Copyright © 2021-2025 David Camargo. Este projeto está disponível sob os termos da licença <a href="/License.txt">CC-BY-NC-SA-4.0</a>.
-	</sub>
-</p>
+## Informações
+- Copyright © 2021-2025 David Camargo.
+- Este projeto está disponível sob os termos da licença <a href="/License.txt">CC-BY-NC-SA-4.0</a>.
+- Pull Requests via repositório não são aceitos.
 
 [Workflow]: https://github.com/2uj1m28ohz/workflow
 
@@ -46,11 +44,12 @@ Mais do que uma simples coleção de dados, Database representa um esforço para
 
 [Arquitetura de Software]: /SoftwareDevelopment/SoftwareArchitecture.md
 [Design de Software]: /SoftwareDevelopment/SoftwareDesign.md
+[Metodologias Ageis]: /SoftwareDevelopment/AgileMethodologies.md
 [Codificacao de Caracteres]: /SoftwareDevelopment/CharacterEncoding.md
 [Sequencia de Fim de Linha]: /SoftwareDevelopment/EndOfLineSequence.md
-[Metodologias Ageis]: /SoftwareDevelopment/AgileMethodologies.md
 [Interface]: /SoftwareDevelopment/Interface.md
 [Versionamento de Software]: /SoftwareDevelopment/SoftwareVersioning.md
+[Notas de Lancamento]: /SoftwareDevelopment/ReleaseNotes.md
 
 [Introducao2]: /DataBackup/Introduction.md
 [Metodos]: /DataBackup/Methods.md
